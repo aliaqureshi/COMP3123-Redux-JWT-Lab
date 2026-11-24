@@ -1,0 +1,87 @@
+
+.container {
+    max-width: 750px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #6941c6;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.panel {
+    background: white;
+    padding: 25px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 18px #0000000d;
+}
+
+h2 {
+    color: #6941c6;
+    margin-top: 0;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    background: #7950d8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 18px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #5935ae;
+}
+
+.logout {
+    background: #dc5263;
+}
+
+.counter {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #7950d8;
+    margin: 20px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.token {
+    background: #f1eaff;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-wrap: anywhere;
+}
+
+.message {
+    background: #e9f8ef;
+    color: #247442;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
